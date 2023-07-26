@@ -37,7 +37,7 @@ sudo apt update
   
 Install Docker Engine, containerd, and Docker Compose:  
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```  
 
 ### Add your user to the docker group for run the Docker daemon as a non-root user (Rootless mode):  
