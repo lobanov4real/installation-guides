@@ -46,7 +46,8 @@ sudo usermod -aG docker $USER
 ```  
 
 Relogin to your user:
-```su $USER
+```
+su $USER
 ```  
 
 ### Check versions of Docker and Docker compose:
