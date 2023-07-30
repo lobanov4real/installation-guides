@@ -1,2 +1,1 @@
-# installation_docs
-Guieds for installations
+# Guieds for installations
