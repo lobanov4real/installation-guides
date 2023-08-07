@@ -5,14 +5,14 @@ Remove welcome ssh message:
 touch ~/.hushlogin
 ```  
   
-Update the package lists cache and upgrade of all packages currently installed:  
+Update apt package index and upgrade of all packages currently installed:  
 ```bash
 sudo apt update && sudo apt upgrade -y
 ``` 
   
 ### Install docker
 
-### By script
+#### By script
 
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -20,7 +20,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 ```bash
 sh get-docker.sh
 ```
-###Manualy
+#### Manualy
 
 Add Docker’s official GPG key:  
 ```bash
