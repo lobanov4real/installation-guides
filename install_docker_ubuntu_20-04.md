@@ -11,10 +11,13 @@ sudo apt update && sudo apt upgrade -y
 ``` 
   
 ### Install docker
+
+By script:
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
+Manualy:
 Add Docker’s official GPG key:  
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
