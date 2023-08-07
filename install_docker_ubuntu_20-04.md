@@ -5,7 +5,7 @@ Remove welcome ssh message:
 touch ~/.hushlogin
 ```  
   
-Update the package lists and upgrade of all packages currently installed:  
+Update the package lists cache and upgrade of all packages currently installed:  
 ```bash
 sudo apt update && sudo apt upgrade -y
 ``` 
