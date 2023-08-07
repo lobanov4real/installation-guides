@@ -19,8 +19,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 ```bash
 sh get-docker.sh
 ```
-Manualy:
-Add Docker’s official GPG key:  
+Manualy. Add Docker’s official GPG key:  
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
 ```  
