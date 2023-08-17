@@ -1,4 +1,4 @@
 # Guieds for installations
 
-1. Install docker on ubuntu 20.04
-2. Install Microsoft fonts from actual deb-package.
+1. [Install](./install_docker_ubuntu_20-04.md) docker on ubuntu 20.04
+2. [Install](./ttf-mscorefonts-installer.md) Microsoft fonts from actual deb-package.
