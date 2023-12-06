@@ -15,11 +15,9 @@ sudo apt update && sudo apt upgrade -y
 #### By script
 
 ```bash
-curl -fsSL https://get.docker.com -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 ```
-```bash
-sh get-docker.sh
-```
+
 #### Manualy
 
 Add Docker’s official GPG key:  
